@@ -9,7 +9,7 @@ stages{
   
   stage('cat README'){
     when{branch "fix-*"}
-    steps{  sh '''  cat README.md '''  }
+    steps{  echo "Only for fix-123"   }
   }
   
   
